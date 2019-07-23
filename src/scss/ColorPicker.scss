@@ -1,0 +1,27 @@
+.color-picker {
+  .colors {
+    display: flex;
+
+    div {
+      height: 10px;
+      width: 50px;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    .brown {
+      background-color: #EDD4B2;
+    }
+
+    .blue {
+      background-color: #D0FEF5;
+    }
+
+    .grey {
+      background-color: #FCFAFA;
+    }
+  }
+}

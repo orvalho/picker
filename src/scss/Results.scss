@@ -1,0 +1,22 @@
+.results {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Roboto Slab', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+
+  img {
+    width: 140px;
+  }
+
+  .selection {
+    align-self: flex-start;
+
+    span {
+      padding-right: 5px;
+    }
+  }
+}
